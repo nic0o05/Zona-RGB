@@ -1,4 +1,39 @@
 body {
-    background-color: aquamarine;
-    color: blueviolet;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 0 0 0 8px;
+    padding-top: 18px;
+    
+    padding-left: 350px;
+}
+.navbar {
+    background-color: #235666;
+    padding: 10px;
+    display: flex;
+}
+video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.v1 {
+    color: rgb(43, 107, 226);
+    padding: 10px;
+}
+
+#v2 {
+    background-color: rgb(43, 107, 226);
+}
+#v3 {
+background-color: rgb(255, 255, 255);
 }
